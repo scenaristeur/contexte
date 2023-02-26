@@ -11,6 +11,7 @@
 
 
 # gh-pages
+- update publicPath in vue.config.js
 - build 
 - create subbranch with dist folder & comment the dist folder in the .gitignore file
 - publish to gh-pages
