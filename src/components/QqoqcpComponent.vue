@@ -78,6 +78,10 @@
         <small id="creatorHelp" class="form-text text-muted">Qui a créé ce contexte.</small>
       </div>
 
+
+      Ajouter condition / lier contexte parent, prerequis..., quand en période, condition
+
+
       <button @click="generate" type="button" class="btn btn-success">Generer le contexte / Generate the
         contexte</button>
       <button @click="init" type="button" class="btn btn-warning">Init formulaire</button>
