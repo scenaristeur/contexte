@@ -31,6 +31,10 @@ git push && git subtree push --prefix dist origin gh-pages
 ```
 - add in updated function of /src/registerServiceWorker.js the line `alert('New content is available; please close the app & re-open.')`
 
+- add 404.html
+- update index.html to use 404.html with the gh script
+
+
 - now publish with `  npm run git -- "my commit message"  `
 
 
