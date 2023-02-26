@@ -10,6 +10,30 @@
 
 
 
+# gh-pages
+- build 
+- create subbranch with dist folder & comment the dist folder in the .gitignore file
+- publish to gh-pages
+- add npm scripts
+
+
+```
+npm run build
+git add dist -f && git commit -m "Initial dist subtree commit"
+git add .
+git push && git subtree push --prefix dist origin gh-pages
+```
+- add 2 lines in scripts of package.json
+```
+    "git": "npm run build && git add . && git commit -m",
+    "postgit": "git push && git subtree push --prefix dist origin gh-pages"
+```
+- add in updated function of /src/registerServiceWorker.js the line `alert('New content is available; please close the app & re-open.')`
+
+- now publish with `  npm run git -- "my commit message"  `
+
+
+
 ## Project setup
 ```
 npm install
