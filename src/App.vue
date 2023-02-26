@@ -5,7 +5,7 @@
   </nav>
   <router-view/>
   <br><br>
-  <small><i>1.0.0, bootstrap</i></small>
+  <small><i>1.0.0, bootstrap 1</i></small>
 </template>
 
 <style>

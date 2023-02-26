@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <!--<img alt="Vue logo" src="../assets/logo.png">-->
-    <QqoqcpComponent msg="Bienvunue sur Qqoqcp, l'appli de gestion de contexte pour l'interopérabilité"/>
+    <QqoqcpComponent msg="Bienvenue sur Qqoqcp, l'appli de gestion de contexte pour l'interopérabilité"/>
   </div>
 </template>
 
