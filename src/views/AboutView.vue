@@ -1,5 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h4>source & discussion</h4>
+    <a href="https://github.com/scenaristeur/contexte" target="_blank">https://github.com/scenaristeur/contexte</a>
   </div>
 </template>

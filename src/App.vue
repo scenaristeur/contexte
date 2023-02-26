@@ -4,6 +4,8 @@
     <router-link to="/about">About</router-link>
   </nav>
   <router-view/>
+  <br><br>
+  <small><i>1.0.0, date & id</i></small>
 </template>
 
 <style>
