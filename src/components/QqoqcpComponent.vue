@@ -36,6 +36,8 @@
 </template>
 
 <script>
+import { v4 as uuidv4 } from 'uuid';
+
 export default {
   name: 'QqoqcpComponent',
   props: {
@@ -48,6 +50,8 @@ export default {
   },
   methods:{
     generate(){
+      this.qqoqccp.id = uuidv4()
+      this.qqoqccp.created = Date.now()
       console.log(this.qqoqccp)
     },
     init(){
