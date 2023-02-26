@@ -29,8 +29,8 @@
     <textarea id="pourquoi" v-model="qqoqccp.pourquoi" />
 
 <br><br>
-<button @click="generate">Generer le contexte / Generate the contexte</button>
-<button @click="init">Init formulaire</button>
+<button @click="generate" type="button" class="btn btn-success">Generer le contexte / Generate the contexte</button>
+<button @click="init" type="button" class="btn btn-warning">Init formulaire</button>
 
   </div>
 </template>

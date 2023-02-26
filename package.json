@@ -10,6 +10,7 @@
     "postgit": "git push && git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "core-js": "^3.8.3",
     "register-service-worker": "^1.7.2",
     "uuid": "^9.0.0",

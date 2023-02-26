@@ -40,6 +40,9 @@ git push && git subtree push --prefix dist origin gh-pages
 npm install
 ```
 
+## bootstrap
+- https://www.harubears.com/en/bootstrap5-button-with-vue3-cli/
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve

@@ -5,7 +5,7 @@
   </nav>
   <router-view/>
   <br><br>
-  <small><i>1.0.0, date & id</i></small>
+  <small><i>1.0.0, bootstrap</i></small>
 </template>
 
 <style>
